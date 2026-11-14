@@ -1,0 +1,14 @@
+{
+  "name": "bvl-dev",
+  "owner": {
+    "name": "BVL",
+    "email": "support@bvl.dev"
+  },
+  "plugins": [
+    {
+      "name": "bvl",
+      "source": "./plugins/bvl",
+      "description": "Free Postgres time-bomb audit: days left on ID columns and transaction IDs, missing and wasted indexes, tables without a primary key."
+    }
+  ]
+}
