@@ -10,6 +10,6 @@ Claude runs BVL's free, read-only Postgres audit and explains each finding: days
 run out, foreign keys with no index, duplicate and unused indexes, and tables with no primary key, each with its fix.
 The `postgres-audit` skill lets Claude offer the audit when you ask about Postgres health.
 
-The plugin runs `npx --yes bvl-audit@0.1.0-alpha.1` (MIT, no dependencies, no network code). The CLI sends nothing to BVL or anyone else; the report it
+The plugin runs `npx --yes bvl-audit@0.1.0-alpha.2` (MIT, no dependencies, no network code). The CLI sends nothing to BVL or anyone else; the report it
 prints becomes part of your Claude Code conversation. The command and the skill tell Claude never to run a fix or any DDL.
 More: https://bvl.dev/audit

@@ -1,6 +1,6 @@
 {
   "name": "bvl",
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0-alpha.2",
   "description": "Free Postgres time-bomb audit from BVL. Runs one read-only query through the bvl-audit CLI and explains the findings.",
   "author": {
     "name": "BVL",
